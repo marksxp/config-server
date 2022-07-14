@@ -1,6 +1,6 @@
 server:
   port: 8003
 
-spring:
-  application:
-    name: data-bike-service
+#spring:
+#  application:
+#    name: data-bike-service
