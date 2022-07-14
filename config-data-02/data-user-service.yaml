@@ -1,0 +1,18 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: data-user-service
+
+# Api Car
+api.car:
+    baseurl.byuser: http://localhost:8002/car/byuser/
+    servicename: data-car-service
+    baseurl: http://localhost:8002
+
+# Api Bike
+api.bike:
+  baseurl.byuser: http://localhost:8003/bike/byuser/
+  servicename: data-bike-service
+  baseurl: http://localhost:8003
